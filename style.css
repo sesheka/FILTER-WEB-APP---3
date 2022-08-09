@@ -1,0 +1,27 @@
+h3{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+#B1{
+    background-color: black;
+    color: white;
+    font-size: 26px;
+}
+#B1:hover{
+    background-color: white;
+    border-color: black;
+    border-width: 5px;
+    color: black;
+}
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px black}
+    to {box-shadow: 1px 1px 38px aqua}
+}
